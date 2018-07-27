@@ -1,0 +1,27 @@
+{
+  "name": "jstests",
+  "version": "1.0.0",
+  "description": "just tests",
+  "main": "testApp.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "mongodb": "3.1.1",
+    "hapi": "17.5.2"
+  },
+  "devDependencies": {
+    "jasmine": "3.1.0",
+    "nodemon": "^1.18.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./testApp.js"
+  },
+  "keywords": [
+    "my",
+    "testst"
+  ],
+  "author": "et",
+  "license": "ISC"
+}
