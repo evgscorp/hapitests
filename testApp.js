@@ -1,11 +1,11 @@
 const mainControllerClass = require ('./mymodules/controllers/main/mainController.js');
 const Hapi = require('hapi');
-const serverAddress = 'localhost';
+//const serverAddress = 'localhost';
 const serverPort = 3100;
 const server = Hapi.server({ 
     load: { sampleInterval: 3000 },
-    address: serverAddress,
-    host: serverAddress,
+  //  address: serverAddress,
+  //  host: serverAddress,
     port: serverPort,
     app: {version:'1.01', author: 'Y.T.'},
     router: { isCaseSensitive: true, stripTrailingSlash: false }
