@@ -14,5 +14,11 @@ services:
       - "3250:3100"
     networks:
       - webhapinet
+  db:
+    image: nginx:latest
+    ports:
+      - "8080:80"
+    networks:
+      - webhapinet     
 networks:
   webhapinet:
